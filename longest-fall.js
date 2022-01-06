@@ -1,3 +1,3 @@
 // add whatever parameters you deem necessary
-function longestFall() {
-}
+function longestFall() {}
+module.exports = longestFall;

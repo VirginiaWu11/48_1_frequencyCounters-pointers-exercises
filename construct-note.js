@@ -1,3 +1,4 @@
 // add whatever parameters you deem necessary
-function constructNote() {
-}
+function constructNote() {}
+
+module.exports = constructNote;

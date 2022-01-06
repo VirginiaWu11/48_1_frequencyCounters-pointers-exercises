@@ -1,3 +1,4 @@
 // add whatever parameters you deem necessary
-function averagePair() {
-}
+function averagePair() {}
+
+module.exports = averagePair;

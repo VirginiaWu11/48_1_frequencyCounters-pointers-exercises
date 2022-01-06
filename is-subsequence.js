@@ -1,3 +1,3 @@
 // add whatever parameters you deem necessary
-function isSubsequence() {
-}
+function isSubsequence() {}
+module.exports = isSubsequence;

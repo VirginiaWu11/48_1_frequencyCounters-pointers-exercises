@@ -19,12 +19,14 @@ function frequencycounter(str) {
   return newMap;
 }
 
-console.log(frequencycounter("hello"));
+// console.log(frequencycounter("hello"));
 
-console.log(validAnagram("", "")); // true
-console.log(validAnagram("aaz", "zza")); // false
-console.log(validAnagram("anagram", "nagaram")); // true
-console.log(validAnagram("rat", "car")); // false
-console.log(validAnagram("awesome", "awesom")); // false
-console.log(validAnagram("qwerty", "qeywrt")); // true
-console.log(validAnagram("texttwisttime", "timetwisttext")); // true
+// console.log(validAnagram("", "")); // true
+// console.log(validAnagram("aaz", "zza")); // false
+// console.log(validAnagram("anagram", "nagaram")); // true
+// console.log(validAnagram("rat", "car")); // false
+// console.log(validAnagram("awesome", "awesom")); // false
+// console.log(validAnagram("qwerty", "qeywrt")); // true
+// console.log(validAnagram("texttwisttime", "timetwisttext")); // true
+
+module.exports = validAnagram;
