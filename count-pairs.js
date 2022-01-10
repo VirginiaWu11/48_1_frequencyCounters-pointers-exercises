@@ -26,7 +26,6 @@ function countPairs(arr, target) {
   const obj = {};
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
-    console.log(obj);
     let lookupVal = target - arr[i];
     if (obj[lookupVal]) {
       count++;
